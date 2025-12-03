@@ -1,5 +1,9 @@
 ---
 title: nvm
+tags:
+  - nodejs
+  - javascript
+  - typescript
 ---
 
 ```bash
