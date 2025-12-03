@@ -1,0 +1,20 @@
+---
+title: rustup
+tags:
+  - toolchain-manager
+  - rust
+---
+
+```bash
+# Rust のツールチェーンを最新版に更新する
+rustup update
+
+# インストール済の Rust のバージョンの一覧を列挙する
+rustup show
+
+# Rust のコンポーネントを追加する
+rustup component add clippy
+
+# Rust のコンポーネントを削除する
+rustup component remove clippy
+```

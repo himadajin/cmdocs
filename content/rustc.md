@@ -1,8 +1,8 @@
 ---
 title: rustc
 tags:
-  - rust
   - compiler
+  - rust
 ---
 
 ## 使用しているllvmのバージョンを知る
