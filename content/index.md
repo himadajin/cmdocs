@@ -7,6 +7,8 @@ description: Personal notes on how to use commands
 
 ## コマンド
 ### コンパイラ
+- [[clang]]
+- [[opt]]
 - [[rustc]]
 - [[tsc]]
 
