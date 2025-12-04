@@ -22,3 +22,6 @@ tar -xvf name.tar
 tar -cJvf name.tar.xz name
 tar -xJvf name.tar.xz
 ```
+
+## See also
+- [[zip]]

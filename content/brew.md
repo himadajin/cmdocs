@@ -29,3 +29,7 @@ brew untap riscv-software-src/riscv
 https://github.com/riscv-software-src/homebrew-riscv.git
 ```
 を参照する。
+
+## See also
+- [[apt]]
+- [[scoop]]

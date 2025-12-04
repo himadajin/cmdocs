@@ -31,3 +31,6 @@ wsl --export Ubuntu-22.04 Ubuntu-22.04.tar
 # --import {distribution name} {install dir} {tar file}
 wsl --import Ubuntu-22.04 "C:/wsl/Ubuntu-22.04" "C:/path/to/Ubuntu-22.04.tar"
 ```
+
+## See also
+- [[docker]]

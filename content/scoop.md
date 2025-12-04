@@ -15,3 +15,7 @@ scoop update
 # すべてのアプリケーションを更新する
 scoop update *
 ```
+
+## See also
+- [[apt]]
+- [[brew]]

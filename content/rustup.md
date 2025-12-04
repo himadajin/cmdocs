@@ -18,3 +18,6 @@ rustup component add clippy
 # Rust のコンポーネントを削除する
 rustup component remove clippy
 ```
+
+## See also
+- [[rustc]]

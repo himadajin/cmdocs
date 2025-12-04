@@ -16,3 +16,6 @@ rustc -V --verbose
 # release: 1.90.0
 # LLVM version: 20.1.8
 ```
+
+## See also
+- [[rustup]]

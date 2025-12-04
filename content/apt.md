@@ -20,5 +20,8 @@ sudo apt clean
 ```bash
 # 手動でインストールしたパッケージを列挙する
 apt-mark showmanual
-
 ```
+
+## See also
+- [[brew]]
+- [[scoop]]
