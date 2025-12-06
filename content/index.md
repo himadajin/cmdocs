@@ -28,10 +28,14 @@ description: Personal notes on how to use commands
 
 ### バージョン管理
 - [[git]]
+- [[svn]]
 
 ### ファイル操作
 - [[tar]]
 - [[zip]]
+
+### システム管理
+- [[update-alternatives]]
 
 ### 仮想化
 - [[docker]]
