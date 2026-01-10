@@ -27,3 +27,16 @@ git checkout -B main origin/main
 git checkout main
 git pull origin main
 ```
+
+```bash
+# 全ての設定を表示する
+git config --list
+
+# 名前とメールアドレスの設定を確認する
+git config user.name
+git config user.email
+
+# 名前とメールアドレスをグローバルに設定する
+git config --global user.name "HARADA Taiki"
+git config --global user.email "email@example.com"
+```
