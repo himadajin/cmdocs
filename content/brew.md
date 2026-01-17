@@ -5,30 +5,43 @@ tags:
   - package-manager
 ---
 
+**基本操作**
+
+```bash
+# パッケージをインストールする
+brew install {package}
+# パッケージをアンインストールする
+brew uninstall {package}
+# すべてのキャッシュを削除する
+brew cleanup --prune=all
+```
+
+**リポジトリ**
+
 ```bash
 # パッケージのリストを更新する
 brew update
+# 追加済みのリポジトリを表示する
+brew tap
+# リポジトリを追加する
+# (リポジトリを "$(brew --prefix)/Library/Taps" にクローンする。)
+brew tap {username}/{repository}
+# リポジトリを削除する
+brew untap {username}/{repository}
+```
 
+**検索**
+
+```bash
 # 手動でインストールしたパッケージを列挙する
 brew leaves
-
 # 古いバージョンのパッケージを列挙する
 brew outdated
-
-# すべてのキャッシュを削除
-brew cleanup --prune=all
-
-# リポジトリを追加
-brew tap riscv-software-src/riscv
-# リポジトリを削除
-brew untap riscv-software-src/riscv
+# 指定したパッケージの情報を表示する
+brew info {package}
+# パッケージを検索する
+brew search {keyword}
 ```
-
-`brew tap riscv-software-src/riscv`としたときは暗黙的に
-```
-https://github.com/riscv-software-src/homebrew-riscv.git
-```
-を参照する。
 
 ## See also
 - [[apt]]
