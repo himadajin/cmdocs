@@ -7,10 +7,10 @@ tags:
 ```bash
 # 圧縮 (-c)
 tar -cvf name.tar name
-
 # 解凍 (-x)
 tar -xvf name.tar
 ```
+
 - `c`: アーカイブを作成
 - `x`: アーカイブを展開
 - `v`: 詳細表示
@@ -24,4 +24,5 @@ tar -xJvf name.tar.xz
 ```
 
 ## See also
+
 - [[zip]]

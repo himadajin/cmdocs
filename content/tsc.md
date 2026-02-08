@@ -18,8 +18,8 @@ node main.js
 
 ```typescript
 // main.ts
-const message: string = "Hello, World!";
-console.log(message);
+const message: string = "Hello, World!"
+console.log(message)
 ```
 
 ```bash
@@ -29,4 +29,5 @@ node main.js
 ```
 
 ## See also
+
 - [[nvm]]
