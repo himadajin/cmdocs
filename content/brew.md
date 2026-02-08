@@ -5,6 +5,19 @@ tags:
   - package-manager
 ---
 
+**基本操作**
+
+```bash
+# パッケージをインストールする
+brew install {package}
+# パッケージをアンインストールする
+brew uninstall {package}
+# すべてのキャッシュを削除する
+brew cleanup --prune=all
+```
+
+**リポジトリ**
+
 ```bash
 # パッケージのリストを更新する
 brew update
