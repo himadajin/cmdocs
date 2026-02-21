@@ -5,13 +5,10 @@ title: docker
 ```bash
 # イメージをインタラクティブモードで起動する
 docker run -it debian:bullseye
-
 # イメージをバックグラウンドで起動する
 docker run python:3.9 python -c 'print("Hello, world!")'
-
 # ローカルに保存したイメージの一覧を表示する
 docker images
-
 # イメージをpullする
 docker pull debian:bullseye
 ```
@@ -104,4 +101,5 @@ docker build --build-arg VERSION=1.2 -t myimage .
 ```
 
 ## See also
+
 - [[wsl]]

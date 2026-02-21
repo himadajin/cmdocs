@@ -21,28 +21,27 @@ brew cleanup --prune=all
 ```bash
 # パッケージのリストを更新する
 brew update
-# 追加済みのリポジトリを表示する
-brew tap
-# リポジトリを追加する
-# (リポジトリを "$(brew --prefix)/Library/Taps" にクローンする。)
-brew tap {username}/{repository}
-# リポジトリを削除する
-brew untap {username}/{repository}
-```
-
-**検索**
-
-```bash
 # 手動でインストールしたパッケージを列挙する
 brew leaves
 # 古いバージョンのパッケージを列挙する
 brew outdated
-# 指定したパッケージの情報を表示する
-brew info {package}
-# パッケージを検索する
-brew search {keyword}
+# すべてのキャッシュを削除
+brew cleanup --prune=all
+# リポジトリを追加
+brew tap riscv-software-src/riscv
+# リポジトリを削除
+brew untap riscv-software-src/riscv
 ```
 
+`brew tap riscv-software-src/riscv`としたときは暗黙的に
+
+```
+https://github.com/riscv-software-src/homebrew-riscv.git
+```
+
+を参照する。
+
 ## See also
+
 - [[apt]]
 - [[scoop]]

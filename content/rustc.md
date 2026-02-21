@@ -6,6 +6,7 @@ tags:
 ---
 
 ## 使用しているllvmのバージョンを知る
+
 ```bash
 rustc -V --verbose
 # rustc 1.90.0 (1159e78c4 2025-09-14)
@@ -18,4 +19,5 @@ rustc -V --verbose
 ```
 
 ## See also
+
 - [[rustup]]
