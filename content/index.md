@@ -25,6 +25,7 @@ description: Personal notes on how to use commands
 ### ツールチェーンマネージャ
 - [[rustup]]
 - [[nvm]]
+- [[npm]]
 
 ### バージョン管理
 - [[git]]
