@@ -35,6 +35,7 @@ git config --global user.name "HARADA Taiki"
 git config --global user.email "email@example.com"
 ```
 
-## `.git` Directory
+## `.git` directory
+
 - `.git/config`: リポジトリ単位の設定ファイル
 - `.git/info/exclude`: ローカルのみで無視するファイルを設定するファイル
