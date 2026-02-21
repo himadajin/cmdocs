@@ -7,17 +7,18 @@ tags:
 
 ```bash
 # C言語のソースコードをLLVM IRにコンパイルする
-clang -emit-llvm -S -o test.ll test.c
-# 言語標準を指定してコンパイルする
+clang -emit-llvm -S test.c -o test.ll
+# c23でコンパイルする
 clang -std=c23 main.c
-# サポートされているターゲットの一覧を表示する
+# サポートしているターゲットの一覧を表示する
 clang --print-targets
 # デフォルトのtarget-tripleを表示する
 clang --print-target-triple
-clang -dumpmachine
 ```
 
 ## See also
 
+- [Clang Compiler User’s Manual](https://clang.llvm.org/docs/UsersManual.html)
 - [Clang command line argument reference](https://clang.llvm.org/docs/ClangCommandLineReference.html)
+- [Clang Language Extensions](https://clang.llvm.org/docs/LanguageExtensions.html)
 - [[opt]]
