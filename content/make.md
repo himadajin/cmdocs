@@ -5,26 +5,22 @@ tags:
 ---
 
 ```bash
+# 強制的に全てをビルドする (make clean; make と同等)
+make -B all
+# ドライランする (コマンドを実行せずに表示のみ行う)
+make -n all
 # 並列ビルドを実行する
 make -j$(nproc) all
-# デバッグ時にルールの実行過程を確認する
-make --trace target
-# 強制的に全てを再ビルド（make clean; make と同等）
-make -B all
-# コマンドを実行せず、実行過程を表示する(ドライラン)
-make -n clean
+# ディレクトリを移動してからビルドする
+make -C {build_dir} all
+# 指定した Makefile を使用してビルドする
+make -f {Makefile} all
 ```
 
-## コマンドラインオプション
-
-- `-n`: ドライランする(コマンドを実行せずに表示のみ行う)
-- `-j$(nproc)`: プロセッサの数だけ並列実行する
-- `-f FILE`: 指定したMakefileを使用する
-  - `make -f Makefile.debug`
-- `-C DIR`: ディレクトリを変更してから make を実行
-  - `make -C ./build`
-- `-B`: 強制再ビルド (全てのターゲットを無条件で作成)
-  - `make -B all`
+```bash
+# デバッグ時にルールの実行過程を確認する
+make --trace target
+```
 
 | オプション | 説明                                         | 使用例                     |
 | :--------- | :------------------------------------------- | :------------------------- |
